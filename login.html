@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <main class="container">
+        <form action="#" method="post" autocomplete="on">
+            <h1>Login</h1>
+            <div class="input-box">
+                <input type="email" name="usuario" id="isuario" placeholder="Usuário" required autocomplete="email">
+                <i class="fa-solid fa-circle-user"></i>
+            </div>
+            <div class="input-box">
+                <input type="password" name="senha" id="isenha" placeholder="Senha" required autocomplete="new-password">
+                <i class="fa-solid fa-lock"></i>
+            </div>
+            <div class="lembrar">
+                <label for="checkbox">
+                    <input type="checkbox" id="checkbox"> Lembrar senha
+                </label>
+                <a href="#">Esqueci a senha</a>
+            </div>
+            <div>
+                <button type="submit" class="submit">Login</button>
+            </div>
+            <div class="registrar">
+                <p>Não tem uma conta? <a href="#">Registrar</a></p>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
